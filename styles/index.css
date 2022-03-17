@@ -1,0 +1,770 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "helvetica neue,HelveticaNeue,Helvetica-Neue,Helvetica,Arial,sans-serif";
+}
+*{
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: green
+    
+}
+ul,li,a{
+    color:gray;
+    margin: auto 0;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.menu{
+    display: flex;
+    
+}
+.menu li{
+    padding-right: 22px;
+    box-sizing:border-box;
+    width:auto;
+    max-width:100%;
+}
+
+.underLane:hover{
+    text-decoration: none;
+    border-bottom: 3px #719430 solid;
+    padding-bottom: 35px;
+    
+}
+
+
+.noneUnderLane a{
+    border-bottom: 100px;
+    padding: 0px;
+}
+.logo{
+    height: 89px;
+    width: 211px;
+    margin-right: 60px;
+    
+}
+
+hr {
+    margin-top: -3px;
+    border: solid #ddd;
+    border-width: 1px 0 0;
+}
+
+.container{
+    max-width: 1040px;
+    width: 1040px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.house{
+    width: 1040px; 
+    margin-top: 65px;
+ }
+
+.items{
+    position:relative;
+    background: #f8f8f8;
+    display: block;
+    height: 205px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    
+    font-family: "HelveticaNeue, Helvetica-Neue, Helvetica, Arial, sans-serif";
+    font-size: 100%;
+    
+    box-sizing:border-box;
+    
+}
+
+h3{
+    
+    text-transform: uppercase;
+}
+
+p{
+    margin: 0.85em 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    display: block;
+    
+}
+
+.plitaNav{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.items p {
+    line-height: 1.5em;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+}
+
+.items h3 {
+    padding-top: 30px;
+    font-size: 17px;
+    text-align: center;
+    color: black;
+}
+
+.items h3 a {
+     color: black;
+}
+.items .icon{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    font-size: 23px;
+    
+    
+    top: -30px;
+    left: 70px;
+    
+    background-color: #719430;
+    color: #ffffff;
+    border-color: #507210;
+    border-radius: 100px;
+    text-align:center;
+}
+
+    @font-face {
+      font-family: 'fontello';
+      src: url('/font/fontello.eot?38332579');
+      src: url('/font/fontello.eot?38332579#iefix') format('embedded-opentype'),
+           url('/font/fontello.woff?38332579') format('woff'),
+           url('/font/fontello.ttf?38332579') format('truetype'),
+           url('/font/fontello.svg?38332579#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+
+.icon .gal .gal-lin{
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;  
+    color: #ddd;
+    display: inline-block;
+    padding: 17px;;
+
+}
+
+.footer .container{
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.partners{
+    display: flex;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.banner{
+    display: block;
+    margin: auto;
+}
+
+.conf{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: green;
+}
+
+.conf a{
+    color: #719430;
+}
+.conf a:hover{
+    text-decoration: underline;
+}
+.btn{
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    font-size: 15px;
+    border: none;
+    background-color: lightgray;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: "fontello";
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.energo{
+    margin-top: 0px;
+    margin-right: 10px;
+   
+    float: left;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.weAre{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.weAre p{
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.weAre h4{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #507210;
+}
+
+.his{
+    text-align: center;
+    margin-top: 30px;
+}
+.zavod{
+    margin-top: 60px;
+    text-align: center;
+}
+.contora{
+    text-align: center;
+}
+.ElsZag{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 14px;
+    color: #507210;
+    margin-bottom: 60px;
+}
+
+
+.AboutProf{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+.Predsedatel{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.ProfPhotoOrig{
+    width: 280px;
+    border-radius: 3%;
+    margin-right: 70px;
+    position: relative;
+    display: block;
+    }
+.ProfInfo{
+    padding-top: 2px;
+    font-size: 15px;
+}
+.PredProfCom{
+    color: #507210;
+    font-weight:550;
+}
+.Sostav{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.TableFIO li{
+    border:  solid 1px rgba(240, 220, 220, 0.219);
+    width: 100%;
+    padding: 10px;
+    padding-right: 160px;
+    padding-left: 160px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.odd{
+    color:black;
+    background-color:rgba(240, 220, 220, 0.219);
+}
+.even{
+    color:gray;
+    
+}
+
+.TableJob li{
+    border:  solid 1px rgba(240, 220, 220, 0.219);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    padding-right: 160px;
+    padding-left: 160px;
+    font-size: 15px;
+}
+
+
+.TableProf{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.TableResFIO li{
+    border:  solid 1px rgba(240, 220, 220, 0.219);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    padding-right: 160px;
+    padding-left: 125px;
+    font-size: 15px;
+}
+.TableResJob li{
+    border:  solid 1px rgba(240, 220, 220, 0.219);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    padding-right: 120px;
+    padding-left: 120px;
+    font-size: 15px;
+}
+
+.ProfFriends{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    display: flex;
+    
+}
+
+.ProfFriends a{
+    color: #507210;
+}
+
+.ProfFriends  :hover{
+    text-decoration:underline;
+}
+.FriendLeft{
+    white-space: nowrap;
+    margin-right: 70px;
+}
+
+
+
+
+
+.NavigationMap{
+    margin-top: 50px;
+    display: flex;
+}
+
+.googlemap{
+    margin-right: 60px;
+}
+
+.UrAdress{
+    width: 485px;
+    height: 300px;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.UrAdress .greenhole{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    font-size: 23px;
+
+    top: -30px;
+    left: 212.5px;
+    margin-bottom: -20px;
+
+    background-color: #719430;
+    color: #ffffff;
+    border-color: #507210;
+    border-radius: 100px;
+    text-align:center;
+}
+
+
+
+@font-face {
+    font-family: 'fontelloFly';
+    src: url('/fontFly/fontello.eot?84455090');
+    src: url('/fontFly/fontello.eot?84455090#iefix') format('embedded-opentype'),
+         url('/fontFly/fontello.woff?84455090') format('woff'),
+         url('/fontFly/fontello.ttf?84455090') format('truetype'),
+         url('/fontFly/fontello.svg?84455090#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+.fly{
+    font-family: "fontelloFly";
+    font-style: normal;
+    font-weight: normal;  
+    color: #ddd;
+    display: inline-block;
+    padding: 15px;
+    padding-right: 20px;
+    padding-top: 17px;
+}
+
+.TimeWork{
+    margin-top: 70px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.TimeWork p strong{
+    font-size: 18px;
+    color: #719430;
+}
+.TimeWork p{
+    font-size: 17px;
+}
+
+.short{
+    width: 40%;
+}
+.OtdelCadrov{
+    margin-top: 40px;
+    text-align: center;
+}
+.OtdelCadrov p strong{
+    font-size: 18px;
+    color: #719430;
+}
+.OtdelCadrov h3{
+    font-size: 16px;
+    color: #719430;
+}
+.OtdelCadrov p{
+   font-weight: 600;
+}
+
+
+.table{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background-color: #96969615;
+    text-align: center;
+    width: inherit;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 15px;
+    
+}
+td, th{
+    border: 0.1px solid rgba(211, 211, 211, 0.39);
+}
+
+td{
+    height: 40px;
+    padding:12px;
+    color: gray;
+}
+
+.ComerUpr{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #719430;
+}
+
+.FilialEls{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #719430;
+}
+
+.MailEls{
+    text-align: center;
+    color:#507210;
+    font-weight: 500;
+}
+
+
+/*Вакансии*/
+.Vacancii{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 17px;
+    color:#719430;
+    margin-bottom: 30px;
+}
+
+.SpisokVacancii{
+    margin-top: 55px;
+}
+
+.SpisokVacancii ul li{
+    line-height: 25px;
+    color: black;
+    font-size: 18px;
+    font-family: "fontello";
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('/fontPerson//fontello.eot?63480226');
+    src: url('/fontPerson//fontello.eot?63480226#iefix') format('embedded-opentype'),
+         url('/fontPerson//fontello.woff?63480226') format('woff'),
+         url('/fontPerson//fontello.ttf?63480226') format('truetype'),
+         url('/fontPerson/') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.VacanciiSpravka{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.VacanciiSpravka p strong{
+    color: #719430;
+    font-size: 18px;
+}
+.VacanciiSpravka p{
+    font-size: 18px;
+}
+
+.linkAnketa:hover{
+    text-decoration: underline;
+}
+
+.anketa{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.anketa p strong a{
+    color: #719430;
+}
+.anketa p strong {
+    color: #719430;
+}
+
+.hrVacancii{
+    margin-bottom: 80px;
+}
+
+
+
+/*Поставщикам*/
+.WelcomeCostumer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.WelcomeBanner{
+    color: #719430;
+    text-align: center;
+}
+.WelcomeCostumer p{
+    font-size: 17px;
+}
+
+.tablePost{
+    width: 100%;
+    font-size: 15px;
+    
+    border-collapse: collapse;
+}
+tr{
+    display: table-row;
+}
+
+.tablePost tr td{
+    padding-right: 50px;
+}
+
+.MainTR{
+    white-space:nowrap;
+}
+
+.odd td{
+    color: black;
+}
+
+.PostOffer{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.PostOffer{
+    font-size: 17px;
+}
+
+.PostOffer p a{
+    color: #719430;
+}
+
+.PostOffer p :hover{
+    text-decoration: underline;
+}
+
+
+/*Продукция*/
+
+.ProductionLink{
+    padding-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.ProductionLink .prodImg img{
+    border-radius: 3px;
+    margin-bottom: 0px;
+    opacity: 0;
+}
+.ProductionLinkRight{
+    margin-left: 60px;
+    width: 30%;
+}
+
+
+.ProductionLink h3{
+    margin-top: 0;
+    margin-bottom: 40px;
+    white-space:nowrap;
+    
+}
+.mini{
+    width: 60%;
+    
+    margin-bottom: 40px;
+}
+
+.ProductBtn{
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background:#719430;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+}
+
+
+/*Акции*/
+/*Подшипники*/
+.podshipniki{
+    display: block;
+    
+    padding-left: 4px;
+    border-bottom: dotted;
+    border-top: dotted;
+    padding-bottom: 10px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-color: lightgray;
+}
+.podshipniki:hover{
+    background:rgba(211, 211, 211, 0.137);
+}
+.podshipniki p{
+    color: black;
+    font-size: 19px;
+}
+.podship_cost{
+    
+    display: flex;
+}
+.podship_cost p{
+    font-size: 17px;
+    line-height: 7px;
+    color: gray;
+}
+.podship_list{
+    margin-top: 50px;
+}
+.otsup{
+    margin-top: 40px;
+    
+}
+/*мебель*/
+.mebel {
+    float: left;
+    margin-left: 6%;
+    width: 100%;
+    
+    line-height: 1.65em;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+.mebel p img{
+    clear: both;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 0;
+    
+    
+    
+    
+}
+.mebelMargin{
+    margin-top: 50px;
+}
+
+/* Настилы*/
+
+.NastilP{
+    margin-top: 60px;
+}
+.NastilIMG {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/*shep*/

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/shepa.css">
+    <link rel="stylesheet" href="/styles/hid_elem.css">
+    <link rel="stylesheet" href="/styles/mainproductplita.css">
+    <link rel="stylesheet" href="/styles/mainproduct.css">
+    <script src="/js/indexHid.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/shepa.js"></script>
+    
+    <title>moz-dok</title>
+</head>
+<body>
+    <a href="#header"><button id="btn" class="btn" title="Вверх">&#xe800</button></a>
+    <header class="header" id='header'>
+        <div class="container">
+            <div class="nav"  >
+                <a href="/index.html"><img src="/img/logo.png" alt="logo" class="logo"> </a>               
+                <ul class="menu">
+                    <li><a class="underLane" href="/index.html">Главная</a></li>
+                    <li><a class="underLane" href="/about.html">О нас</a></li>
+                    <li><a class="underLane" href="">Новости</a></li>
+                    <li id="acsii"><a class="underLane" href="/actsii.html">Акции</a>
+                        <ul class="hid_elem" id="hid_elem">
+                            <li class="noneUnderLane"><a href="/actsii/podshipniki.html">Подшипники</a></li>
+                            <li class="noneUnderLane"><a href="/actsii/mebel.html">Мебель</a></li>
+                            <li class="noneUnderLane"><a href="/actsii/nastili.html">мебельные настилы</a></li>
+                        </ul>
+                    </li>
+                    <li id="pro"><a class="underLane" href="/production.html">Продукция</a>
+                        <ul class="hid_elem" id="hid_elempro">
+                            <li class="noneUnderLane"><a href="/production/MainProduct/plita.html">Теплоизоляционая плита</a></li>
+                            <li class="noneUnderLane"><a href="/production/briketi.html">Брикеты</a></li>
+                            <li class="noneUnderLane"><a href="/production/pilomat.html">Пиломатериалы</a></li>
+                            <li class="noneUnderLane"><a href="/production/shepa.html">Топливная щепа</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="underLane" href="/postavcikam.html">Поставщикам</a></li>
+                    <li><a class="underLane" href="/vacancii.html">Вакансии</a></li>
+                    <li><a class="underLane" href="/contacts.html">Контакты</a></li>
+                    <li><a class="underLane" href="/profcom.html">Профсоюз</a></li>          
+                </ul>                
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <section class="section" >
+        <div class="container">
+            <div class="shepa">
+                <p class="Shepa_img">
+                    <img src="/img/mainprod/universal-845x684.jpg" alt="shepa"  width="500" height="450">
+                </p>
+            </div>
+            <div class="summary">   
+                <div class="cross-table" onclick='showTop()'>
+                    <span class="cross">
+                        <div class="hor"></div >
+                        <div class="vert" id="vert"></div>
+                    </span>
+                    <p class="cross-table-name">
+                        Состав
+                    </p>
+                </div>
+                <div class="cross-hiden" id="cross-hiden">
+                    <ul>
+                        <li>натуральные волокна из древесины хвойных пород</li>
+                        <li>смола на полиуретановой основе MDI (4%)</li>
+                </div>
+                <div class="cross-table" onclick='showBot()'>
+                    <span class="cross">
+                        <div class="hor"></div >
+                        <div class="vert" id="vert-bot"></div>
+                    </span>
+                    <p class="cross-table-name">
+                        Описание и область применения
+                    </p>
+                </div>
+                <div class="cross-hiden" id="cross-hiden-bot">
+                    <p>
+                        Рекомендуется для внутренней изоляции наружных стен и перегородок внутренних стен
+Возможна изоляция перекрытий, потолка и пола
+                    </p>
+                </div>
+                <div class="cross-table" onclick='showBottom()'>
+                    <span class="cross">
+                        <div class="hor"></div >
+                        <div class="vert" id="vert-bottom"></div>
+                    </span>
+                    <p class="cross-table-name">
+                        Рекомендации по укладке
+                    </p>
+                </div>
+                <div class="cross-hiden" id="cross-hiden-bottom">
+                    <p>
+                        При транспортировке и складировании плит необходимо обеспечить их защиту от <strong>механических повреждений и увлажнения</strong>. Хранение поддонов с плитой осуществляется в помещении на ровной поверхности, изолированной от грунта, под навесом, защищающим теплоизоляционную плиту из древесного волокна от воздействия атмосферных осадков и солнечных лучей. <strong>НЕ ДОПУСКАЕТСЯ</strong> погрузка плит «навалом» и выгрузка их сбрасыванием. Укладывать поддоны с плитой один на другой в штабеля допускается не более чем в два яруса.
+                    </p>
+                </div>
+                <p>
+                    <br><br>
+                </p>
+            </div>
+        </div>
+        <p class="techmoment"><strong>Технические  характеристики БЕЛТЕРМО-universal:</strong></p>
+        <p class="gost">(согласно  ГОСТ  EN  13171)</p>
+    </section>
+    <div class="container">
+    <table class="tech">
+        <tbody>
+        <tr class="maintr odd">
+            <td>Профиль  кромки</td>
+            <td></td>
+            <td>Прямой или ступенчатый</td>
+            <td></td>
+        </tr>
+        <tr class="even">
+            <td>Длина</td>
+            <td>мм</td>
+            <td>1000 — 2850</td>
+            <td></td>
+        </tr>
+        <tr class="odd">
+            <td>Ширина</td>
+            <td>мм</td>
+            <td>575 — 600</td>
+            <td></td>
+        </tr>
+        <tr class="even">
+            <td>Толщина</td>
+            <td>мм</td>
+            <td>20 — 160</td>
+            <td></td>
+        </tr>
+        <tr class="odd">
+            <td>Плотность</td>
+            <td>кг/м<sup>3</sup></td>
+            <td>ок. 190</td>
+            <td>протоколы</td>
+        </tr>
+        <tr class="even">
+            <td>Номинальное  значение коэффициента  теплопроводности</td>
+            <td class="nowrap">Вт/м*К</td>
+            <td>0,042</td>
+            <td>протоколы</td>
+        </tr>
+        <tr class="odd">
+            <td>Прочность  на  сжатие при 10% линейной деформации</td>
+            <td>кПа</td>
+            <td>100й</td>
+            <td>протоколы</td>
+        </tr>
+        <tr class="even">
+            <td>Огнестойкость. Еврокласс согласно СТБ EN 13501</td>
+            <td>кПа</td>
+            <td>7,5</td>
+            <td>Е</td>
+        </tr>
+    </tbody>
+    </table>
+    <hr class="short">
+</div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="sertificats"><strong>Сертификаты</strong></p>
+        
+            <div class="SertificatImg">
+                <p>
+                    <a  href="/img/production/Сертификат-FSC-100_1.png" target="_blank">
+                        <img  src="/img/mainprod/sertificat/ISO-14001_1.png" alt="Сертификат"  width="188" height="260">
+                        <img  src="/img/mainprod/sertificat/ISO-9001_1.png" alt="Сертификат"  width="188" height="260">
+                        <img  src="/img/mainprod/sertificat/СЕ-Белтермо_01.png" alt="Сертификат"  width="188" height="260">
+                        <img  src="/img/mainprod/sertificat/Сертификат-FSC-100_1-1.png" alt="Сертификат"  width="340" height="260">
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <p class="otherprod"><strong>Другие теплоизоляционные плиты</strong></p>
+            <hr class="short">
+
+            <div class="MainProducts otsup">
+                <div class="PlitaPreview" >
+                    <a href="/production/MainProduct/spisokPlit/universal.html"><img src="/img/mainprod/universal-845x684.jpg" alt="" class="imgpreview"  width="208" height="150"></a>
+                    <a href="/production/MainProduct/spisokPlit/universal.html"><p>БЕЛТЕРМО-universal</p></a>
+                </div>
+                <div class="PlitaPreview" >
+                    <a href=""><img src="/img/mainprod/flex-845x611.jpg" alt="" class="imgpreview" width="208" height="150"></a>
+                    <a href=""><p>БЕЛТЕРМО-flex</p></a>
+                </div>
+                <div class="PlitaPreview" >
+                    <a href=""><img src="/img/mainprod/ultramax-845x684.jpg" alt="" class="imgpreview"  width="208" height="150"></a>
+                    <a href=""><p>БЕЛТЕРМО-ultra</p></a>
+                </div>
+                <div class="PlitaPreview" >
+                    <a href=""><img src="/img/mainprod/instalmax-845x684.jpg" alt="" class="imgpreview"  width="208" height="150"></a>
+                    <a href=""><p>БЕЛТЕРМО-instal</p></a>
+                </div>
+                <div class="PlitaPreview" >
+                    <a href=""><img src="/img/mainprod/room-845x601.jpg" alt="" class="imgpreview"  width="208" height="150"></a>
+                    <a href=""><p>БЕЛТЕРМО-room</p></a>
+                </div>
+                <div class="PlitaPreview" >
+                    <a href=""><img src="/img/mainprod/kombi3-845x684.jpg" alt="" class="imgpreview"  width="208" height="150"></a>
+                    <a href=""><p>БЕЛТЕРМО-kombi</p></a>
+                </div>
+                <div class="PlitaPreview" >
+                    <a href=""><img src="/img/mainprod/safemax-845x684.jpg" alt="" class="imgpreview"  width="208" height="150"></a>
+                    <a href=""><p>БЕЛТЕРМО-safe</p></a>
+                </div>
+                <div class="PlitaPreview" >
+                    <a href=""><img src="/img/mainprod/floormax-1-845x684.jpg" alt="" class="imgpreview"  width="208" height="150"></a>
+                    <a href=""><p>БЕЛТЕРМО-floor</p></a>
+                </div>
+                <div class="PlitaPreview" >
+                    <a href=""><img src="/img/mainprod/topmax-845x684.jpg" alt="" class="imgpreview"  width="208" height="150"></a>
+                    <a href=""><p>БЕЛТЕРМО-top</p></a>
+                </div>
+                <div class="PlitaPreview" >
+                    <a href=""><img src="/img/mainprod/multimax-845x684.jpg" alt="" class="imgpreview"  width="208" height="150"></a>
+                    <a href=""><p>БЕЛТЕРМО-multi</p></a>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

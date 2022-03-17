@@ -1,0 +1,87 @@
+.section .container{
+    display: flex;
+}
+
+.shepa{
+    margin-top: 50px;
+}
+.Shepa_img{
+    
+    margin-right: 50px
+}
+.summary{
+    font-size: 17px;
+    line-height: 25px;
+    padding: 10px;
+    margin-top: 50px;
+    width: 100%;
+}
+.summary p{
+    margin-bottom: 30px;
+}
+.cross-table{
+    border: rgba(128, 128, 128, 0.185) solid;
+    border-width: 1px;
+    font-size: 15px;  
+    height: 50px; 
+    
+}
+.cross{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: rgba(128, 128, 128, 0.185) solid;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-width: 1px;
+    
+}
+.cross-table-name{
+    margin-left: 30px;
+    white-space: nowrap
+}
+.hor{
+    
+    margin-top: 7px;
+    border: rgba(128, 128, 128, 0.185)solid;
+    width: 100%;
+    margin-left: 0.5px;
+    
+}
+.vert{
+    margin-top: -12px;
+    border: rgba(128, 128, 128, 0.185)solid;
+    width: 1px;
+    height: 100%;
+    margin-left: 7px;
+    padding-bottom: 14px;
+    visibility:visible;
+}
+.cross-table:hover{
+    cursor: pointer;
+}
+.cross-hiden{
+    font-size: 14px;
+    border:rgba(128, 128, 128, 0.185)solid;
+    border-width: 1px;
+    padding-left: 35px;
+    display: none;
+}
+.cross-hiden p{
+    margin-bottom: 10px;
+    padding: 0;
+}
+.cross-hiden ul li{
+    list-style: outside disc;
+    color: black;
+}
+.eco{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.footer .container{
+    text-align: center;
+    color: #719430;
+    margin-bottom: 40px;
+}

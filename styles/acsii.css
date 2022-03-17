@@ -1,0 +1,109 @@
+.ItemsAcsii{
+    text-align: center;
+    
+    background: #f8f8f8;
+    
+    width: 300px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    
+    font-family: "HelveticaNeue, Helvetica-Neue, Helvetica, Arial, sans-serif";
+    
+    
+    box-sizing:border-box;
+    
+}
+
+.IconAcii{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    font-size: 23px;
+    margin-bottom: -25px;
+    font-family: 'fontello';
+    top: -25px;
+    left: 125px;
+    display: block;
+    padding-top: 13px;
+    
+    background-color: #719430;
+    color: #ffffff;
+    border-color: #507210;
+    border-radius: 100px;
+    text-align:center;
+}
+
+
+.ItemsAcsii  h3 a{
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('/fontAcsii/fontello.eot?80790332');
+    src: url('/fontAcsii/fontello.eot?80790332#iefix') format('embedded-opentype'),
+         url('/fontAcsii/fontello.woff?80790332') format('woff'),
+         url('/fontAcsii/fontello.ttf?80790332') format('truetype'),
+         url('/fontAcsii/fontello.svg?80790332#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .IconAcii a{  
+    position: relative;
+    margin-top: -25px;
+    text-align: center;
+    color: white;
+    font-family: 'fontello'
+  }
+.acsii-gal{
+    font-family: "fontelloFly";
+    font-style: normal;
+    font-weight: normal;  
+    color: #ddd;
+}
+.ForAcsioners{
+    text-align: center;
+    
+    background: #f8f8f8;
+    
+    width: 300px;
+    
+    margin-top: 30px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    font-family: "HelveticaNeue, Helvetica-Neue, Helvetica, Arial, sans-serif";
+
+    box-sizing:border-box;
+}
+
+.ForAcsioners h3 a{
+    color: black;
+}
+
+.ForAcsioners p a{
+    
+    text-align: center;
+    color: #719430;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    
+}
+.ForAcsioners p a:hover{
+    text-decoration: underline;
+}
+
+.IconAcii div{  
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+    font-family: 'fontello'
+  }

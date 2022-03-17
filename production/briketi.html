@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/shepa.css">
+    <link rel="stylesheet" href="/styles/hid_elem.css">
+    <script src="/js/indexHid.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/shepa.js"></script>
+    <title>moz-dok</title>
+</head>
+<body>
+    <a href="#header"><button id="btn" class="btn" title="Вверх">&#xe800</button></a>
+    <header class="header" id='header'>
+        <div class="container">
+            <div class="nav"  >
+                <a href="/index.html"><img src="/img/logo.png" alt="logo" class="logo"> </a>               
+                <ul class="menu">
+                    <li><a class="underLane" href="/index.html">Главная</a></li>
+                    <li><a class="underLane" href="/about.html">О нас</a></li>
+                    <li><a class="underLane" href="">Новости</a></li>
+                    <li id="acsii"><a class="underLane" href="/actsii.html">Акции</a>
+                        <ul class="hid_elem" id="hid_elem">
+                            <li class="noneUnderLane"><a href="/actsii/podshipniki.html">Подшипники</a></li>
+                            <li class="noneUnderLane"><a href="/actsii/mebel.html">Мебель</a></li>
+                            <li class="noneUnderLane"><a href="/actsii/nastili.html">мебельные настилы</a></li>
+                        </ul>
+                    </li>
+                    <li id="pro"><a class="underLane" href="/production.html">Продукция</a>
+                        <ul class="hid_elem" id="hid_elempro">
+                            <li class="noneUnderLane"><a href="/production/MainProduct/plita.html">Теплоизоляционая плита</a></li>
+                            <li class="noneUnderLane"><a href="/production/briketi.html">Брикеты</a></li>
+                            <li class="noneUnderLane"><a href="/production/pilomat.html">Пиломатериалы</a></li>
+                            <li class="noneUnderLane"><a href="/production/shepa.html">Топливная щепа</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="underLane" href="/postavcikam.html">Поставщикам</a></li>
+                    <li><a class="underLane" href="/vacancii.html">Вакансии</a></li>
+                    <li><a class="underLane" href="/contacts.html">Контакты</a></li>
+                    <li><a class="underLane" href="/profcom.html">Профсоюз</a></li>          
+                </ul>                
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <section class="section" >
+        <div class="container">
+            <div class="shepa">
+                <p class="Shepa_img">
+                    <img src="/img/script_li/briket.jpg" alt="shepa" width="500" height="450">
+                </p>
+            </div>
+            <div class="summary">   
+                <p>
+                    Брикеты выпускаются из сухих опилок древесины хвойных пород. Древесные брикеты не включают в себя никаких вредных веществ, в т.ч. клеев. Специально прессованные под большим давлением и при высокой температуре, брикеты имеют прямоугольную форму кирпича (RUF-брикеты).
+                    Топливные брикеты применяются в качестве твёрдого топлива для каминов и печей любых видов, в том числе твердотопливных котлов систем отопления. Так как топливные брикеты экологически чистый продукт и горят практически бездымно, идеально использовать их для обогрева жилых помещений, бань, палаток, теплиц, овощных ям и т. д.                <div class="cross-table" onclick='showTop()'>
+                    <span class="cross">
+                        <div class="hor"></div >
+                        <div class="vert" id="vert"></div>
+                    </span>
+                    <p class="cross-table-name">
+                        Характеристика топливных брикетов
+                    </p>
+                </div>
+                <div class="cross-hiden" id="cross-hiden">
+                    <ul>
+                        <li>Влажность — около 8%</li>
+                        <li>Теплота сгорания — 4200-4500 ккал/кг.</li>
+                        <li>Зольность — 0,7%.</li>
+                        <li>Вес упаковки — 10 кг.</li>
+                        <li>Вес брикета на поддоне (96 уп.) – 960 кг.</li>
+                        <li>Теплотворная способность — min 16,9 МДж/кг.</li>
+                    </ul>
+                </div>
+                <div class="cross-table" onclick='showBot()'>
+                    <span class="cross">
+                        <div class="hor"></div >
+                        <div class="vert" id="vert-bot"></div>
+                    </span>
+                    <p class="cross-table-name">
+                        Упаковка брикетов
+                    </p>
+                </div>
+                <div class="cross-hiden" id="cross-hiden-bot">
+                    <p>
+                        Упакованы брикеты в полиэтиленовую упаковку по 10 кг. в каждой. Уложенные на поддон упаковки обтянуты пленкой и утянуты полипропиленовой лентой, которая скреплена металлическими скобами. Также возможна поставка в биг-бегах.                    </p>
+                </div>
+                <div class="cross-table" onclick='showBottom()'>
+                    <span class="cross">
+                        <div class="hor"></div >
+                        <div class="vert" id="vert-bottom"></div>
+                    </span>
+                    <p class="cross-table-name">
+                        Транспортировка брикетов
+                    </p>
+                </div>
+                <div class="cross-hiden" id="cross-hiden-bottom">
+                    <p>
+                        Товар поставляется автомобильным транспортом на разовых поддонах и железнодорожным транспортом (крытый вагон) на условиях FSA согласно ИНКОТЕРМС 2010                    </p>
+                </div>
+                <p class="eco">
+                    Вся продукция ОАО «Мозырский ДОК» является высококачественной экологически чистой, соответствует требованиям международных и европейских норм, выпускается из сертифицированной древесины, что подтверждается наличием сертификата FSC.            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p class="sertificat"><strong>Сертификат</strong></p>
+        
+            <div class="SertificatImg">
+                <p>
+                    <a href="/img/production/sert1.jpg" target="_blank">
+                        <img src="/img/production/sert1.jpg" alt="" width="300" height="400">
+                    </a>
+                    <a href="/img/production/serteng.jpg" target="_blank">
+                        <img src="/img/production/serteng.jpg" alt="" width="300" height="400">
+                    </a>
+                    <a  href="/img/production/Сертификат-FSC-100_1.png" target="_blank">
+                        <img  src="/img/production/Сертификат-FSC-100_1.png" alt="Сертификат"  width="340" height="260">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

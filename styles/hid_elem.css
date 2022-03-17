@@ -1,0 +1,22 @@
+.hid_elem{
+    color: #969696;
+    width: 200px;
+    height: 155px;
+    position: absolute;
+    background: white;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 36px;
+    padding-left: 5px;
+    line-height: 40px;
+    
+    border-color: #ebebeb;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    transition: all 0.5s;
+}
+
+
+

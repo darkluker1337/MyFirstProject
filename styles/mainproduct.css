@@ -1,0 +1,98 @@
+.CarHouse{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.MainProducts{
+    
+    height: 300px;
+    margin-bottom: 150px;
+    padding: 0px;
+}
+.PlitaPreview{
+    height: 200px;
+    width: calc(100%/5);
+    border: 1px solid ;
+    border-color: lightgray;
+    display: block;
+    overflow: hidden;
+    display:inline-block;
+    margin-left: -5px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+.PlitaPreview a {
+    color: black;
+}
+.container .under_video{
+    text-align: center;   
+    color: #507210;
+    font-size: 18px;
+}
+.video{
+    text-align: center;
+}
+
+video{
+    width: auto;
+    height: 580px;
+    
+}
+@font-face {
+    font-family: 'fontello';
+    src: url('/fontFinger/fontello.eot?59142135');
+    src: url('/fontFinger/fontello.eot?59142135#iefix') format('embedded-opentype'),
+         url('/fontFinger/fontello.woff?59142135') format('woff'),
+         url('/fontFinger/fontello.ttf?59142135') format('truetype'),
+         url('/fontFinger/fontello.svg?59142135#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+.BigFinger{
+    opacity: 0;
+    border: solid;
+    width: 64px;
+    height: 64px;
+    border-radius: 100px;
+    border-width: 1px;
+    padding-top: 10px;
+    float: left;
+    background-color: lightgray;
+}
+
+.BigFinger{
+    font-family: 'fontello'; 
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+header h4{
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.pogoda{
+    
+    margin-top: 0px;
+    vertical-align: baseline;
+    
+}
+.pogoda img{
+    position: relative;
+    float: left;
+}
+.text{
+    padding-top: 10px;
+    
+}
+
+.PogodaImg{
+    margin-left: 50px;
+}
+
+article{
+    padding-left: 40px;
+}

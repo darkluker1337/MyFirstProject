@@ -1,0 +1,34 @@
+.techmoment{
+    text-align: center;
+    color: #719430;
+}
+.gost{
+    text-align: center;
+    font-size: 15px;
+}
+.tech{
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    
+}
+.tech td {
+    padding-right: 110px;
+    border: 0.1px solid;
+    border-color: rgba(211, 211, 211, 0.5);
+}
+.maintr td{
+    white-space: nowrap;
+}
+.nowrap{
+    white-space: nowrap;
+}
+.sertificats{
+    margin-top: -60px;
+}
+.otherprod{
+    margin-top: 150px;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
